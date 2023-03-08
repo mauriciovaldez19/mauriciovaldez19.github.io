@@ -1,0 +1,120 @@
+header {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+/* Ajustes de la barra de navegación*/
+.barra {
+  overflow: hidden;
+  background-color: #054c55;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.barra a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+}
+
+.barra a:hover {
+  background-color: #9dcfcc;
+  color: black;
+}
+
+.barra a.active {
+  background-color: #4c9692;
+  color: white;
+}
+
+
+body {
+  margin-left: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/*Ajustes para la clase contenido*/
+.contenido{
+  color: rgb(0, 0, 0);
+  font-size: large;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.contenido h1{
+  color:#4c9692;
+  font-size: xx-large;
+  text-align: center;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+.contenido img{
+  border-radius: 50%;
+  float: right;
+}
+
+.contenido p{
+  font-weight: bold;
+  font-size: medium;
+  font-style: oblique;
+}
+
+.contenido li{
+font-weight: bold;
+}
+
+/*Ajustes para cada Id*/
+#descripcion{ font-weight:normal;
+text-align: justify;}
+#nombre{  font-weight:normal;}   
+#apellido{  font-weight:normal;}
+#edad{  font-weight:normal;}
+#nacionalidad{  font-weight:normal;}
+#email{  font-weight:normal;}
+#telefono{  font-weight:normal;}
+#celular{  font-weight:normal;}
+#calle{  font-weight:normal;}
+#numero{  font-weight:normal;}
+#ciudad{  font-weight:normal;}
+#pais{  font-weight:normal;}
+#postcode{  font-weight:normal;}
+#Contacto{  text-align: center;}
+
+/*Ajustes relacionados al botón mostrar más*/
+#muestra{ display: none;}
+
+#btn{
+  background-color: #4c9692;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 420px) {
+  body{
+    margin-top: 165px;
+  }
+  .barra{
+    position:absolute;
+  } 
+  .barra a{
+    width: 100%;
+    padding: 14px;
+  }
+  .contenido{
+    width: 95%;
+  }
+}
+

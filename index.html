@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARERERERAAABAAAQAAEAAAEAABAAAQAAAQAAEAABAAABAAAQAAEAAAEAABEREQAAAQAAEBAAAAABAAAQEAAAAAEAABAQAAAAAREREBAAAAAAAQAAEAAAAAABAAAQAAAAAAEAABAAAAAAAREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/5de3e5878c.js" crossorigin="anonymous"></script>
+    <title>Trabajo Final- Ticmas</title>
+</head>
+<header>
+    <div class="barra">
+       <a class= "active" href="#AboutMe">Sobre mí</a>
+       <a href="#Experiencia">Experiencia</a>
+       <a href="#Conocimientos">Conocimientos</a>
+       <a href="#Contacto">Contacto</a>
+    </div>
+</header>
+<body>
+    <div hidden></div>
+    
+  <div id="AboutMe" class="contenido">
+    <h1>Sobre mí</h1>
+    <img src="" alt="foto de perfil" id="foto">
+    <p>Nombre y Apellido:<span id="nombre"></span> 
+    <span id="apellido"></span></p>
+    <p>Edad: <span id="edad"></span></p>
+    <p>Nacionalidad: <span id="nacionalidad"></span></p>
+    <p>Breve descripción:</p> 
+    <p id="descripcion">Soy una persona proactiva que le gusta crecer en el ambito personal como también laboral,
+      responsable, capaz de trabajar en equipo para buscar soluciones a diferentes problematicas
+      inherentes al trabajo.
+    </p>
+  </div>
+
+  <div id="Experiencia" class="contenido">
+    <h1>Experiencia laboral</h1>
+    <ul>
+      <li>Operario en Distribuidora MyL</li>
+      <dd>desde 2021 - 2023</dd>  
+      <li>Conductor para empresa de reparto de alimentos</li>
+      <dd>desde 2020 - hasta 2021</dd>
+      <li>Jefe en Tráfico y Logística en Empresa de Transporte de Pasajeros para el turismo Transbus Viajes</li>
+      <dd>desde 2013 - hasta 2020</dd> 
+      <li>Administrativo en Empresa de Transporte de Cargas</li>
+      <dd>desde 2010 - 2013</dd>
+      <li>Armado y reparación de Pc's  por cuenta propia</li>
+      <dd>desde 2008 - hasta 2010</dd>  
+    </ul>
+  </div>
+
+  <div id="Conocimientos" class="contenido">
+    <h1>Conocimientos</h1>
+    <ul>
+      <li>Estudio Secundario completo </li>
+        <dd>Bachiller en Idiomas- Colegio Dante Alighieri</dd>
+      <li>Estudio Universitario en progreso </li>
+        <dd>Ingenieria Electrónica - FCEFyN - UNC</dd>
+      <li>Estudios Complementarios <button onclick="muestra_mas()" id="btn">Ver más</button>
+        <ul id="muestra">
+          <li>Armado y Reparación de PC Full- Academia Santo Domingo</li>
+          <li>Curso de Idioma y Cultura Italiana- Academia Dante Alighieri</li> 
+          <li>Curso de Idioma Inglés - Cultura Británica</li>
+          <li>Programación Neurolingüistica (PNL)-  Extensión FCM-UNC</li>  
+        </ul>
+      </li>
+    
+    </ul>
+  </div>
+  
+  <div id="Contacto" class="contenido">
+    <h1>Contacto</h1>
+
+    <p><i class="fa-regular fa-envelope"></i>   E-Mail: <span id="email"></span></p>
+    <p> <i class="fa-sharp fa-solid fa-phone"></i> Teléfono: <span id="telefono"></span> Cel: <span id="celular"></span></p>
+    <p><i class="fa-sharp fa-solid fa-address-card"></i>  Dirección:
+    Calle: <span id="calle"></span>
+    N°: <span id="numero"></span>     
+    <p><i class="fa-sharp fa-solid fa-location-dot"></i>  Ciudad: <span id="ciudad"></span> 
+      Pais: <span id="pais"></span>
+    CP:<span id="postcode"></span></p>
+    
+  </div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
